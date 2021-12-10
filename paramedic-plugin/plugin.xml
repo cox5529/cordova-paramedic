@@ -49,12 +49,5 @@
         <preference name="scheme" value="http" />
         <!-- <preference name="localhost" value="apptest.cordova.apache.org" /> -->
       </config-file>
-
-      <edit-config file="AndroidManifest.xml" target="/manifest/application" mode="overwrite">
-        <!-- Cleartext Traffic should be avoided. Currently the way paramedic proxy the results, cleartext is needed, even when the scheme is set to http. -->
-        <application
-          android:requestLegacyExternalStorage="true"
-          android:usesCleartextTraffic="true" />
-      </edit-config>
     </platform>
 </plugin>
