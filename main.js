@@ -41,6 +41,7 @@ var USAGE           = "Error missing args. \n" +
     "\n" +
     "--args: (optional) add command line args to the \"cordova build\" and \"cordov run\" commands \n" +
     "--buildName : (optional) Build name to show in Saucelabs dashboard\n" +
+    "--appName : (optional) App ID to use when uninstalling\n" +
     "--ci : (optional) Skip tests that require user interaction\n" +
     "--cleanUpAfterRun : (optional) cleans up the application after the run\n" +
     "--cli : (optional) A path to Cordova CLI\n" +
